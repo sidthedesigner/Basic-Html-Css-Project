@@ -1,0 +1,35 @@
+body{
+	background: yellow;
+}
+
+h1,h2,h3{
+	font-family: arial;
+}
+
+h2{
+	color:red;
+}
+
+a{
+    color: blue;
+}
+
+a{                 /* In Css if we add a style for the seond time it overrides the earlier one. Thus Cascading Style Sheet.*/
+    color: blue;
+}
+
+p{
+	background: black;
+	padding: 20px 0 10px 20px;
+	color:white;
+}
+
+.secondary /* The '.' signifies that it is a class */
+{
+	background: white;
+	color:black;
+}
+
+#special{  /* You can only have one id per page. So it is generally used for something special like navigation. Id loads faster than classes*/
+	background: pink;
+}
